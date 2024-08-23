@@ -68,6 +68,13 @@ X-scPAE implements a multi-class classification task, with inputs including labe
 
 ### Example for data:
 
+```bash
+- Label Feature1  Feature2   Feature3 ...
+-   1    0.235     1.378      3.546
+-   2    10.731    0.556      6.034
+-   5    3.265     2.931      2.878
+-   8    5.307     4.251      11.215
+```
 
 
 ## Documentation
