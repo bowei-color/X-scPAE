@@ -34,7 +34,7 @@ pip install torch numpy pandas matplotlib scikit-learn
 To use the `X-scPAE` model, clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/your-username/x-scpae.git
+git clone [https://github.com/your-username/x-scpae.git](https://github.com/bowei-color/X-scPAE.git)
 cd code
 ```
 
