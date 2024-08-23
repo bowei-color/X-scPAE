@@ -37,7 +37,7 @@ To use the `X-scPAE` model, clone the repository:
 ```bash
 git clone https://github.com/bowei-color/X-scPAE.git
 ```
-We recommend that users use the Conda virtual environment:
+Use the Conda virtual environment:
 
 ```bash
 conda create --name surrealgan python=3.9
