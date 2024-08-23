@@ -41,13 +41,13 @@ git clone https://github.com/bowei-color/X-scPAE.git
 Create a virtual environment using conda:
 
 ```bash
-conda create --name surrealgan python=3.9
+conda create --name environment_for_xscpae python=3.9
 ```
 
 Activate the virtual environment
 
 ```bash
-conda activate surrealgan
+conda activate environment_for_xscpae
 ```
 
 Navigate to the project directory
