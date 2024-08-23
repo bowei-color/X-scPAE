@@ -18,9 +18,9 @@ This model integrates Principal Component Analysis (PCA) for dimensionality redu
 Ensure you have the following prerequisites installed:
 - Python >= 3.9.x
 - PyTorch == 2.5.0 
-- NumPy >= 1.24.3
-- Pandas >= 2.2.2
-- Matplotlib >= 3.8.4
+- NumPy == 1.24.3
+- Pandas == 2.2.2
+- Matplotlib == 3.8.4
 - Scikit-learn == 1.4.2
 -scipy == 1.10.1
 
@@ -29,6 +29,13 @@ You can install the required packages using `pip`:
 ```bash
 pip install torch numpy pandas matplotlib scikit-learn
 ```
+
+or use the following command to install all dependencies：
+
+```bash
+pip install -r requirements.txt
+```
+
 
 ### Installation
 
