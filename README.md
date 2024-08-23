@@ -32,11 +32,26 @@ pip install torch numpy pandas matplotlib scikit-learn
 
 ### Installation
 
-To use the `X-scPAE` model, clone the repository and navigate to the project directory:
+To use the `X-scPAE` model, clone the repository:
 
 ```bash
 git clone https://github.com/bowei-color/X-scPAE.git
-cd code
+```
+We recommend that users use the Conda virtual environment:
+
+```bash
+conda create --name surrealgan python=3.9
+```
+Activate the virtual environment
+
+```bash
+conda activate surrealgan
+```
+
+Navigate to the project directory
+
+```bash
+cd X-scPAE/code
 ```
 
 ### Usage
@@ -46,6 +61,14 @@ To run the model with the provided dataset, execute the following command:
 ```python
 python X-scPAE.py --epochs[number of iterations] --file_path[your data file path]
 ```
+
+## Input structure
+
+X-scPAE implements a multi-class classification task, with inputs including labels and features, where the first column consists of labels in numerical form, and the same number indicates the same category.
+
+### Example for data:
+
+
 
 ## Documentation
 The project documentation provides a detailed description of the model, the logic of the algorithm, an explanation of the parameters, and a guide on how to reproduce the experimental results. Here is a summary of the documentation:
@@ -65,4 +88,6 @@ Our model has been tested on multiple datasets, and here is a summary of some ke
 
 Contributions to the project are welcome. Please submit a pull request or create an issue in the GitHub repository.
 
+## Contact Authors
 
+Dr. Bowei Yan: boweiyan2020@gmail.com
