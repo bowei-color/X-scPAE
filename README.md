@@ -3,6 +3,7 @@
 `X-scPAE` (eXplained Single Cell PCA - Attention Auto Encoder) is an advanced deep learning model that predicts cell lineage allocation and identifies lineage differences in human and mouse single-cell transcriptome data. 
 This model integrates Principal Component Analysis (PCA) for dimensionality reduction, a self-attention mechanism for feature interaction, and Counterfactual Gradient Attribution (CGA) for computing feature importance, providing accurate and interpretable lineage predictions.
 
+![Fig1 Image](Fig1.png "Figure 1: Description of the image")
 
 ## Features
 
